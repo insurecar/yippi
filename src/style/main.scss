@@ -1,0 +1,27 @@
+$textColor: #1a1a1a;
+
+// Theme colors
+$em1--green: #6c7661 !default;
+$em1--blue: #123d49 !default;
+$em1--light-maroon: #ad8f89 !default;
+$em1--maroon: #D83840 !default;
+
+$theme: $em1--maroon !default;
+$font-family: 'Gotham' !default;
+
+@import './misc.scss';
+@import './tags.scss';
+@import './misc.scss';
+@import './style.scss';
+
+@import './blocks/header.scss';
+@import './blocks/footer.scss';
+@import './blocks/description.scss';
+@import './blocks/unit.scss';
+@import './blocks/form.scss';
+@import './blocks/privacy_declaration.scss';
+@import './blocks/map.scss';
+@import './blocks/static-gallery.scss';
+@import './blocks/agent.scss';
+
+@import './pages/index.scss';

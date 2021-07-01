@@ -1,0 +1,492 @@
+$backgroundColor: #e1eceb;
+$orange: red;
+$textColor:  #000b1b;
+
+.form {
+  display: block;
+  margin: 0 auto 0px;
+  width: 100%;
+  max-width: 874px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+
+  @include tablets {
+    width: auto;
+    padding-bottom: 50px;
+  }
+
+  @include phones {
+    padding-bottom: 45px;
+  }
+
+  input {
+
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 4px 39px 0 15px;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 24px;
+    @include fluid-type(400px, 1920px, 18px, 20px);
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: 'MinionPro-Capt';
+    border-radius: 5px;
+    line-height: 1.4;
+    height: 75px;
+
+    &::placeholder {
+      color: #fff !important;
+      padding-top: 21px;
+      line-height: 2.5;
+    }
+
+    &::-webkit-input-placeholder {
+      padding-top: 0;
+      line-height: 1.4;
+    }
+  }
+
+  textarea {
+    &::placeholder {
+      color: #fff !important;
+      line-height: 1.4;
+    }
+  }
+
+  &__extra-img {
+    width: 100%;
+
+    img {
+      width: 100%;
+      display: block;
+      height: 324px;
+
+      @include tablets {
+        height: 190px;
+      }
+
+      @include phones {
+        height: 90px;
+      }
+
+      &.hide {
+        display: none;
+      }
+    }
+  }
+
+  textarea {
+    height: 218px;
+    margin-bottom: 32px;
+    padding: 24px 43px 24px 16px;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 24px;
+    font-family: $font-family;
+    border-radius: 5px;
+  }
+
+  &__inner {
+    &-title {
+      font-size: 24px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: 1.2px;
+      color: #fff;
+      margin-bottom: 14px;
+
+      @include phones {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  &-wrap {
+    padding-bottom: 0px;
+    @include fluid-size("padding-top", 400px, 1920px, 55px, 95px);
+
+
+    background-color: $theme;
+    color: #fff;
+
+    @include tablets {
+      padding-top: 60px;
+
+    }
+
+    @include phones {
+      padding-top: 65px;
+    }
+
+    &.no-pdf {
+      padding-bottom: 100px;
+
+      @include tablets {
+        padding-bottom: 65px;
+      }
+
+      @include phones {
+        padding-bottom: 65px;
+      }
+    }
+
+    &__title {
+      @include fluid-size("font-size", 400px, 1920px, 35px, 55px);
+      @include fluid-size("margin-bottom", 400px, 1920px, 12px, 27px);
+
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: 2.3px;
+      text-align: center;
+    font-family: 'Brandon';
+
+      @include phones {
+        margin-bottom: 8px;
+        // font-size: 35px;
+      }
+
+      &-sub {
+      @include fluid-size("font-size", 400px, 1920px, 18px, 24px);
+      @include fluid-size("margin-bottom", 400px, 1920px, 41px, 48px);
+        font-weight: normal;
+        line-height: 1.25;
+        letter-spacing: 1.2px;
+        text-align: center;
+        font-family: 'MinionPro-Capt';
+
+
+        @include tablets {
+          line-height: 1.5;
+          letter-spacing: 1px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        @include phones {
+          font-size: 20px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: 1px;
+          text-align: center;
+          color: #ffffff;
+          margin-bottom: 35px;
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: $textColor;
+    font-family: 'MinionPro-Capt';
+
+    margin-left: 5px;
+    text-decoration: underline;
+    line-height: 30px;
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 1.2px;
+    text-align: center;
+    border-radius: 5px;
+    height: 75px;
+    border: solid 2px #fff;
+    margin-top: 30px;
+    color: #fff;
+    background-color: transparent;
+
+    &:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: $theme;
+    }
+  }
+
+  &__button {
+    transition: all 400ms ease-in-out;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: 'Brandon';
+  }
+}
+
+.checkbox-wrap {
+  margin-top: 30px;
+  align-items: flex-start !important;
+  flex-direction: column;
+  a {
+    color: #fff;
+    line-height: 1.67;
+  }
+
+  &__text {
+    display: flex;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    cursor: pointer;
+
+    @include tablets {
+      font-size: 17px;
+      line-height: 2.14;
+      letter-spacing: 0.7px;
+      align-items: center;
+    }
+
+    @include phones {
+      font-size: 12px;
+      line-height: 2.14;
+      letter-spacing: 0.1px;
+    }
+  }
+}
+
+.pdf {
+  padding-bottom: 65px;
+
+  @include tablets {
+    margin-top: 15px;
+  }
+
+  @include phones {
+    margin-top: 30px;
+  }
+
+  &__title {
+    // font-size: 30px;
+    font-weight: normal;
+    line-height: 2.2;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    @include fluid-type(400px, 1920px, 35px, 30px);
+    font-family: 'Brandon';
+  }
+
+  &-img {
+    &__wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+    &__img {
+      display: block;
+      width: 58px;
+      height: 97px;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    align-items: baseline;
+    // font-size: 18px;
+    line-height: 66px;
+    letter-spacing: 0.9px;
+    opacity: 0.7;
+    font-family: 'Brandon';
+    @include fluid-type(400px, 1920px, 18px, 20px);
+
+
+    &:hover {
+      color: darken(#ffffff, 20%);
+      .pdf__circle {
+        opacity: 1;
+        border-color: darken(#ffffff, 20%);
+        transition: 0.3s;
+      }
+
+      .pdf__icon {
+        color: darken(#ffffff, 20%);
+        transition: 0.3s;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__circle {
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    margin-left: 9px;
+    align-items: center;
+    border: 1px solid #fff;
+    opacity: 0.9;
+    position: relative;
+  }
+
+  &__icon {
+    font-size: 10px;
+    opacity: 0.9;
+    text-decoration: none;
+
+    @include phones {
+
+    }
+  }
+}
+
+.iti {
+  margin-bottom: 30px;
+  width: 100%;
+
+  &__country {
+    color: #333;
+  }
+
+  &__arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid #555;
+    &--up {
+      border-top: none;
+      border-bottom: 8px solid #555;
+    }
+  }
+
+  &__selected {
+    &-flag {
+      padding-left: 15px;
+    }
+  }
+}
+
+.checkbox {
+  &-group {
+    &__input {
+      max-width: 257px;
+      border: none;
+      border-radius: 0px;
+      margin-left: 10px;
+      padding: 0px;
+      height: 30px;
+      margin-bottom: 0px;
+      border-bottom: solid 1.2px #a8a8a8;
+
+      @include phones {
+        margin-right: 20px;
+      }
+    }
+    &__label {
+      margin-right: 30px;
+      font-size: 18px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      color: #979797;
+      transition: 0.3s;
+      cursor: pointer;
+
+      @include phones {
+        font-size: 13.3px;
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0px;
+        }
+      }
+      &:hover {
+        color: rgba(151,151,151,.7);
+      }
+    }
+    &__first {
+      margin-bottom: 45px;
+    }
+    &__second {
+      display: flex;
+      flex-direction: column;
+      & label {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  width: auto;
+}
+.custom-checkbox + label {
+  display: inline-flex;
+  user-select: none;
+  font-family: 'MinionPro-Capt';
+
+}
+.custom-checkbox + label::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  transition: 0.3s;
+  flex-grow: 0;
+  border: solid 2px #fff;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  outline: none;
+  position: relative;
+  top: 4px;
+
+  @include phones {
+    align-self: flex-start;
+    position: relative;
+  }
+}
+.custom-checkbox:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-size: 16px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cpath fill='%23fff' d='M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z'/%3e%3c/svg%3e");
+}
+
+/* стили при наведении курсора на checkbox */
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border-color: rgba(151,151,151,.6);
+}
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active+label::before {
+  background-color: #0b76ef;
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox:focus:not(:checked)+label::before {
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+  background-color: #e9ecef;
+}
+

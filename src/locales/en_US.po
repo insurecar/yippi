@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 2; plural = (n != 1);\n"
+"Language: en_US\n"
+"mime-version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/components/FooterWrap.js:58
+msgid "Takk for din interesse! Vi vil holde deg oppdatert fremover."
+msgstr "Thank you for your interest! We will keep you updated going forward."
+
+#: src/components/FooterWrap.js:66
+msgid "Something went wrong with form submission. Please try again later."
+msgstr ""
+
+#: src/components/FooterWrap.js:99
+msgid "Navn"
+msgstr "Name"
+
+#: src/components/FooterWrap.js:111
+msgid "Telefonnummer"
+msgstr "Phone"
+
+#: src/components/validationSchema.js:6
+#: src/components/validationSchema.js:9
+msgid "This field is required"
+msgstr "Dette feltet er obligatorisk"
+
+#: src/components/validationSchema.js:12
+#: src/components/validationSchema.js:13
+msgid "Terms of conditions must be accepted"
+msgstr "Vilkårene må aksepteres"
+
+#: src/components/FooterWrap.js:122
+msgid "Postnummer"
+msgstr ""
+
+#: src/components/FooterWrap.js:132
+#: src/components/FooterWrap.js:161
+#: src/components/Header.js:36
+#: src/components/HeaderWrapper.js:12
+msgid "BESTILL VERDIVURDERING"
+msgstr ""
+
+#: src/components/FooterWrap.js:149
+msgid "Jeg godkjenner at dere kan kontakte meg for en uforpliktende verdivurdering."
+msgstr ""
+
+#: src/components/FooterWrap.js:168
+#: src/components/FooterWrapper.js:10
+msgid ""
+"Eiendomsmegler Vest ble etablert som egen eiendomsavdeling i Sparebanken "
+"Vest i 1974. Vi har i dag salgskontorer i de største byene og nærområdene "
+"på Vestlandet. På de fleste av våre salgskontorer er vi samlokalisert med "
+"bankrådgivere fra Sparebanken Vest."
+msgstr ""
+
+#: src/components/Header.js:17
+msgid "SOLGT"
+msgstr ""
+
+#: src/components/Header.js:20
+msgid "i ditt nærområde"
+msgstr ""
+
+#: src/components/Header.js:24
+msgid "Vi får fart på boligsalget ditt"
+msgstr ""
+
+#: src/components/Header.js:28
+msgid ""
+"Å selge bolig kan være nervepirrende. Men i Eiendomsmegler Vest vi vet hva "
+"vi driver med. Vi kjenner markedet og vet akkurat hvordan vi skal finne de "
+"rette kjøperne til din bolig. Med våre verktøy treffer du riktig målgruppe, "
+"i riktig kanal, til riktig tid. Slik oppnår du best pris for din bolig."
+msgstr ""
+
+#: src/components/Info.js:12
+msgid ""
+"Start med å få en verdivurdering av boligen din. Vi kommer hjem til deg og "
+"tar en skikkelig gjennomgang av boligen, tomten og nabolaget. Med lang "
+"erfaring og kjennskap til markedet vil megleren gi deg en god vurdering av "
+"verdiene du sitter på."
+msgstr ""
+
+#: src/components/Info.js:16
+msgid "BESTILL VERDIIVURDERING"
+msgstr ""
+
+#: src/components/Menu.js:9
+msgid "Dette får du:"
+msgstr ""
+
+#: src/components/Menu.js:17
+msgid "Tydelig gjennomgang av hvordan boligsalget gjøres"
+msgstr ""
+
+#: src/components/Menu.js:23
+msgid "Plan for annonsering og visning"
+msgstr ""
+
+#: src/components/Menu.js:29
+msgid "Strategi for salget: Hva skal til for å oppnå best mulig pris?"
+msgstr ""
+
+#: src/components/Menu.js:35
+msgid "Tips til enkle grep som kan få frem det beste med boligen din"
+msgstr ""
+
+#: src/components/Menu.js:42
+msgid "Å selge bolig er en reise. Vi følger deg hele veien."
+msgstr ""
+
+#: src/components/Agent.js:9
+msgid "\"Velg meglere som kjenner nabolaget\""
+msgstr ""
+
+#: src/components/Agent.js:20
+msgid "Eiendomsmegler"
+msgstr ""
+
+#: src/components/FooterWrap.js:89
+msgid "Få verdivurdering av din bolig"
+msgstr ""
+
+#: src/components/Info.js:8
+msgid "Et raskt og smidig boligsalg? Kjør på!"
+msgstr ""
+
+#: src/components/Header.js:31
+#, javascript-format
+msgid ""
+"${ agent.name } solgte nettopp denne eiendommen i nabolaget ditt. Han har "
+"mange på listen som fortsatt leter etter eiendom i samme område."
+msgstr ""

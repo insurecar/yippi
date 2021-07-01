@@ -1,0 +1,19 @@
+.map {
+	height: 500px;
+	@include phones {
+		height: 400px;
+	}
+	& a {
+		display: none;
+	}
+	& button {
+		display: none;
+	}
+}
+
+.gm-style-mtc > div,
+.gmnoprint > div,
+.gm-svpc {
+  // background-color: #f63981 !important;
+  display: none !important;
+}

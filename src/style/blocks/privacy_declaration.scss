@@ -1,0 +1,61 @@
+.modal-container {
+  display: none;
+  background-color: rgba(0, 0, 0, .7);
+
+  &.visible {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+  }
+}
+
+.modal {
+  background-color: white;
+  color: #333;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 50px;
+  padding: 60px;
+  height: calc(100% - 50px);
+  overflow: scroll;
+  position: relative;
+
+  @include tablets {
+    padding: 40px;
+  }
+
+  @include phones {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 42px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.close-modal {
+  color: #000;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 40px;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+}

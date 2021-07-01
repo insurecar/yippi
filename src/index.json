@@ -1,0 +1,179 @@
+{
+  "host": "http://localhost:3000/",
+  "locale": "nb",
+  "currency": "NOK",
+  "country": "NO",
+  "campaignUuid": "c1ced80c-4590-4f8a-b300-0a692dd2f9f0",
+  "companyUuid": "da964fc3-1434-4566-9acd-3cee83d017c0",
+  "titleEnabled": true,
+  "introEnabled": true,
+  "projectDescriptionEnabled": true,
+  "areaDescriptionEnabled": true,
+  "galleryEnabled": true,
+  "salesArgumentsEnabled": true,
+  "showingsEnabled": true,
+  "mapEnabled": true,
+  "unitsListEnabled": true,
+  "title": "Lavprisboliger med gunstig finansiering",
+  "headerImage": {
+    "large": "./images/header-bg.png"
+  },
+  "logo": {
+    "large": "./images/header-logo.png"
+  },
+  "prospectUrl": "#",
+  "intro": "<b>Trondheims billigste <br> nye 4-roms</b> <br><br> Yippi Høiseth er Trondheims billigste 4-roms leiligheter. Og mer enn det: For å hjelpe enda flere inn på boligmarkedet, kommer våre lavprisboliger med en unik og gunstig finansieringsløsning. Lavprisboliger og en egen spareplan fra SpareBank 1 SMN gir deg muligheten til å kjøpe bolig allerede i dag, selv om du kanskje bare sitter med 50.000 i egenkapital.",
+  "visitingHours": [
+    "18/11/2019 - 12:00",
+    "22/11/2019 - 15:00"
+  ],
+  "galleryImages": [
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png"},
+    { "large" : "./images/galery-img1.png" }
+  ],
+  "leadsEndpoint": "http://localhost:3000/leads",
+  "location": {
+    "lat": 52.555,
+    "lng": 5.91111
+  },
+  "projectDescription": "Med enkle grep kan du selv sette ditt personlige preg på leiligheten. For å gjøre prosessen enklest mulig for deg har vi, sammen med interiørarkitekt, laget noen alternativer (uten og med tillegg i pris). Her har du 3 ulike kjøkken å velge mellom, muligheter for utvidelse av kjøkken, og tre interiørstiler. Disse ser du presentert under. ",
+  "projectDescriptionImage": {
+    "large": "https://via.placeholder.com/830x560"
+  },
+  "areaDescription": "<b> Et godt sted å bo, et godt sted å leve.</b> <br><br> I* de gamle fabrikklokalene til Levahns Mekaniske\nVerksted på Ensjø kan du bo i fantastiske fabrikklokaler som utnytter mer enn\nbare kvadratmeteren. Moderne løsninger og åpne rom. Dette gir en følelse av mye\nplass og rom på få kvadratmeter. Det er lagt stor vekt på å bruke solide og\nholdbare materialer under utforming av leiligheten.",
+  "areaDescriptionImage": {
+    "large": "./images/info-bg.png"
+  },
+  "salesArgument1": "Sales <b>argument</b> 1 goes here. Dette gir en følelse av mye plass og rom på få\nkvadratmeter.",
+  "salesArgument2": "Sales <b>argument</b> 2 goes here. Dette gir en følelse av mye plass og rom på få\nkvadratmeter.",
+  "salesArgument3": "<p><span style=\"font-family: 'book antiqua', palatino, serif; font-size: 24pt;\"><strong>Enesteånde utsikt!</strong></span></p>\n<p>&nbsp;</p>\n<p>&nbsp; &nbsp;<br><span style=\"font-family: verdana, geneva, sans-serif; font-size: 18pt;\">Atriumhusene har praktfulle takterrasser hvor du kommer til å kose deg glugg ihjel! Hver takterrasse måler ca 31 m2 og gir mye plass til å innrede etter smak og interesse.</span></p>",
+  "company": {
+    "name": "Eiendomsmegler Vest",
+    "legalName": "Eiendomsmegler Vest AS",
+    "phoneNumber": "+47 11 22 33",
+    "email": "mail@sipes.no",
+    "registrationNumber": "000 111 222",
+    "location": {
+      "address": "446 Roman Points Suite 110",
+      "city": "Archiechester",
+      "country": "",
+      "zipCode": "0452"
+    }
+  },
+  "units": [
+    {
+      "unitId": "B9-001",
+      "bedroomCount": 3,
+      "floorNumber": 0,
+      "sizeM2": 62,
+      "totalPrice": 5100000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "B9-002",
+      "bedroomCount": 3,
+      "floorNumber": 0,
+      "sizeM2": 62,
+      "totalPrice": 5200000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "B9-101",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 62,
+      "totalPrice": 5300000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "B9-102",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 62,
+      "totalPrice": 5400000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "H-202",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 104,
+      "totalPrice": 5500000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "H-203",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 104,
+      "totalPrice": 5700000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "H-301",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 104,
+      "totalPrice": 5800000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "H-302",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 104,
+      "totalPrice": 5900000,
+      "floorPlan": "./images/galery-img1.png"
+    },
+    {
+      "unitId": "H-303",
+      "bedroomCount": 3,
+      "floorNumber": 1,
+      "sizeM2": 104,
+      "totalPrice": 5200000,
+      "floorPlan": "./images/galery-img1.png"
+    }
+  ],
+  "pricesEnabled": true,
+  "minPrice": 1000000,
+  "maxPrice": 2000000,
+  "agents": [
+    {
+      "name": "aaaaaa bbbbb",
+      "phoneNumber": "111111",
+      "email": "aaaaaa@aaaaaa.no",
+      "image": {
+        "large": "https://via.placeholder.com/1200x600"
+      }
+    },
+    {
+      "name": "aaaaaa bbbbb",
+      "phoneNumber": "111111",
+      "email": "aaaaaa@aaaaaa.no",
+      "image": {
+        "large": "https://via.placeholder.com/1200x600"
+      }
+    },
+    {
+      "name": "aaaaaa bbbbb",
+      "phoneNumber": "111111",
+      "email": "aaaaaa@aaaaaa.no",
+      "image": {
+        "large": "https://via.placeholder.com/1200x600"
+      }
+    },
+    {
+      "name": "aaaaaa bbbbb",
+      "phoneNumber": "111111",
+      "email": "aaaaaa@aaaaaa.no",
+      "image": {
+        "large": "https://via.placeholder.com/1200x600"
+      }
+    }
+  ]
+}

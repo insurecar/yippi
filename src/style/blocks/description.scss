@@ -1,0 +1,176 @@
+.description {
+  position: relative;
+  margin-bottom: 129px;
+  
+  &__deco {
+    width: 100%;
+    background-color: rgba(0, 11, 27, 0.86);
+    height: 239px;
+    position: absolute;
+    bottom: 179px;
+
+    @include laptops {
+      bottom: 119px;
+    }
+
+    @include tablets {
+      height: 359px;
+      bottom: 219px;
+    }
+
+    @include phones {
+      bottom: 140px;
+    }
+  }
+  
+  &__content {
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    max-width: 95%;
+
+    @include tablets {
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    @include phones {
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .left-col,
+  .right-col {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+
+    @include tablets {
+      flex-basis: 100%;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    @include phones {
+      flex-basis: 100%;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .left-col {
+    padding-left: 120px;
+    margin-right: 67px;
+
+    @include laptops {
+      padding-left: 32px;
+    }
+
+    @include tablets {
+      padding-left: 32px;
+      margin-right: 0;
+    }
+
+    @include phones {
+      padding-left: 32px;
+      margin-right: 0;
+    }
+
+    &__text {
+      font-size: 30px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #000c1a;
+      margin-bottom: 121px;
+
+      @include laptops {
+        font-size: 24px;
+      }
+
+      @include tablets {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 90px;
+      }
+
+      @include phones {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 90px;
+      }
+
+      .title {
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1.61;
+
+        @include laptops {
+          font-size: 24px;
+        }
+
+        @include tablets {
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1.9;
+          padding-bottom: 5px;
+        }
+
+        @include phones {
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1.9;
+          padding-bottom: 5px;
+        }
+      }
+    }
+
+    img {
+      @include tablets {
+        width: 100%;
+        height: 298px;
+      }
+
+      @include phones {
+        width: 100%;
+        height: 478px;
+      }
+    }
+  }
+
+  .right-col {
+    max-width: 519px;
+    padding-top: 30px;
+
+    @include tablets {
+      max-width: initial;
+    }
+
+    img {
+      @include tablets {
+        width: 100%;
+        height: 424px;
+      }
+
+      @include phones {
+        width: 100%;
+        height: 224px;
+      }
+    }
+  }
+}

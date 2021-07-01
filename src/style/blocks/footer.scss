@@ -1,0 +1,69 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343534;
+  height: 225px;
+
+  @include laptops {
+    padding: 0px;
+  }
+
+  @include tablets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    min-height: 240px;
+    height: 100%;
+  }
+
+  @include phones {
+    min-height: 240px;
+    padding-top: 80px;
+    height: 100%;
+  }
+
+  &-wrapper {
+    background-color: #343534;
+  }
+
+  &__text{
+    font-family: BasisGrotesquePro;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #ffffff;
+    margin-top: 34.4px;
+    margin-bottom: 36px;
+    max-width: 652px;
+    width: 100%;
+
+    @include laptops {
+      margin-right: 20px;
+    }
+
+    @include tablets {
+      font-size: 15px;
+    }
+  }
+
+  &__logo {
+    width: 338px;
+    height: 89px;
+    color: #000;
+    margin-top: 67px;
+    margin-bottom: 57px;
+    object-fit: contain;
+
+    @include tablets {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+
+    @include phones {
+      margin-bottom: 30px;
+    }
+  }
+}
