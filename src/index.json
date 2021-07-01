@@ -144,11 +144,11 @@
   "maxPrice": 2000000,
   "agents": [
     {
-      "name": "aaaaaa bbbbb",
+      "name": "Jørgen Rostad <br> <span> Avd. leder / Eiendomsmegler </span>",
       "phoneNumber": "111111",
       "email": "aaaaaa@aaaaaa.no",
       "image": {
-        "large": "https://via.placeholder.com/1200x600"
+        "large": "./images/Anna1.png"
       }
     },
     {
@@ -156,7 +156,15 @@
       "phoneNumber": "111111",
       "email": "aaaaaa@aaaaaa.no",
       "image": {
-        "large": "https://via.placeholder.com/1200x600"
+        "large": "./images/Anna2.png"
+      }
+    },
+    {
+      "name": "Jørgen Rostad",
+      "phoneNumber": "111111",
+      "email": "aaaaaa@aaaaaa.no",
+      "image": {
+        "large": "./images/Anna3.png"
       }
     },
     {
@@ -164,15 +172,7 @@
       "phoneNumber": "111111",
       "email": "aaaaaa@aaaaaa.no",
       "image": {
-        "large": "https://via.placeholder.com/1200x600"
-      }
-    },
-    {
-      "name": "aaaaaa bbbbb",
-      "phoneNumber": "111111",
-      "email": "aaaaaa@aaaaaa.no",
-      "image": {
-        "large": "https://via.placeholder.com/1200x600"
+        "large": "./images/Anna4.png"
       }
     }
   ]

@@ -14,7 +14,7 @@ const Agent = ({ agents }) => {
           { t`Ta kontakt for mer informasjon:`}
         </div>
       </div>
-
+      <div className = "wrap__agent">
       {agents.map((agent, idx) => (
         <div className="agent-description">
           <div className="agent-description-img">
@@ -22,7 +22,7 @@ const Agent = ({ agents }) => {
           </div>
 
           <div className="agent-description-text">
-            <div className="agent-description-text__title">
+            <div className="agent-description-text__title" dangerouslySetInnerHTML={{ __html:   agent.name  }}>
               { agent.name }
             </div>
             <div className="agent-description-text__item">
@@ -38,6 +38,9 @@ const Agent = ({ agents }) => {
           </div>
         </div>
       ))}
+
+      </div>
+      
     </div>
   )
 }
